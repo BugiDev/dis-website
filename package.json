@@ -2,5 +2,11 @@
   "name": "dis-website",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "1.9.1",
+    "slick-carousel": "^1.8.1",
+    "slicknav": "^1.0.8"
+  }
 }
