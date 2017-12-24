@@ -38,7 +38,6 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    /* background: url(../images/sliderL.png) center center no-repeat; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -360,8 +359,6 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    /*height: 240px;*/
-    /*background: url(../images/sliderL.png) center center no-repeat;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -380,12 +377,10 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    /* background: url(../images/sliderL.png) center center no-repeat; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* height: 10px; */
     border-top: 194px solid white;
     border-right: 3000px solid transparent;
 / / bottom: 489 px;
@@ -585,7 +580,6 @@ body {
     left: 0;
     width: 100%;
     height: 240px;
-    /*background: url(../images/sliderL.png) center center no-repeat;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -604,12 +598,10 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    /* background: url(../images/sliderL.png) center center no-repeat; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* height: 10px; */
     border-top: 194px solid white;
     border-right: 3000px solid transparent;
 / / bottom: 489 px;
@@ -618,8 +610,6 @@ body {
 .Ama {
     margin-top: 201px;
     margin-bottom: 133px;
-    /*	margin-top: 241px;
-        margin-bottom: 94px;*/
 }
 
 @media screen and (min-device-width: 1919px) {
@@ -699,8 +689,6 @@ body {
     overflow: hidden;
     height: 100%;
     background: url(../images/bgTop.jpg) center center no-repeat;
-    /*background: url(../images/line4.png) center center no-repeat;*/
-    /*background:#3f2d28;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -716,7 +704,6 @@ body {
     left: 0;
     width: 100%;
     height: 240px;
-    /*background: url(../images/sliderL.png) center center no-repeat;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -735,7 +722,6 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    /* background: url(../images/sliderL.png) center center no-repeat; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
