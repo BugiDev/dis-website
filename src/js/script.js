@@ -52,7 +52,7 @@ $(document).ready(function() {
     });
 
     //Slicknav startup
-    $('#menu').slicknav();
+    $('#menu').slicknav({'label' : 'MENI'});
 
     //Sticky menu
     var $menu = $("#menuF");

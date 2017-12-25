@@ -55,6 +55,18 @@ body {
     color: #fff;
 }
 
+@media screen and (max-width: 991px) {
+    .logo {
+        margin-top: -40px;
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+    }
+}
+
 .logo a {
     cursor: pointer;
     color: #fff;
@@ -224,6 +236,11 @@ body {
 
     .slicknav_menu {
         display: block;
+        background-color: #101010 !important;
+    }
+
+    .slicknav_btn {
+        background-color: #101010 !important;
     }
 
     .about p {
@@ -901,11 +918,13 @@ textarea:focus {
     margin-bottom: 10px;
     margin-right: 10px;
     width: 403px;
+    max-width: 816px;
 }
 
 .Email {
     margin-bottom: 10px;
     width: 403px;
+    max-width: 816px;
 }
 
 .Subject {
