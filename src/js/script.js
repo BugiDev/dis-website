@@ -1,3 +1,15 @@
+function initMap() {
+    var uluru = {lat: 44.0051572, lng: 20.9024734};
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 18,
+        center: uluru
+    });
+    var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+    });
+}
+
 function calculateScroll() {
     var contentTop = [];
     var contentBottom = [];
@@ -64,7 +76,7 @@ $(document).ready(function() {
 
             $logoImage.removeClass('logo-home')
                 .addClass('logo-header')
-                .attr('src', 'images/logo.png');
+                .attr('src', 'images/logo_small.png');
         } else {
             if ($(this).scrollTop() <= 135 && $menu.hasClass("fixed")) {
                 $menu.removeClass("fixed transbg")
@@ -78,22 +90,26 @@ $(document).ready(function() {
     });
 
     setTimeout(function() {
-        $('#counter').text('0');
-        $('#counter1').text('0');
-        $('#counter2').text('0');
+        var $counter = $('#counter');
+        var $counter1 = $('#counter1');
+        var $counter2 = $('#counter2');
+
+        $counter.text('0');
+        $counter1.text('0');
+        $counter2.text('0');
         setInterval(function() {
 
-            var curval = parseInt($('#counter').text());
-            var curval1 = parseInt($('#counter1').text().replace(' ', ''));
-            var curval2 = parseInt($('#counter2').text());
+            var curval = parseInt($counter.text());
+            var curval1 = parseInt($counter1.text().replace(' ', ''));
+            var curval2 = parseInt($counter2.text());
             if (curval <= 707) {
-                $('#counter').text(curval + 1);
+                $counter.text(curval + 1);
             }
             if (curval1 <= 12280) {
-                $('#counter1').text(sdf_FTS((curval1 + 20), 0, ' '));
+                $counter1.text(sdf_FTS((curval1 + 20), 0, ' '));
             }
             if (curval2 <= 245) {
-                $('#counter2').text(curval2 + 1);
+                $counter2.text(curval2 + 1);
             }
         }, 2);
 
