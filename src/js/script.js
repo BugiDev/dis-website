@@ -51,6 +51,12 @@ $(document).ready(function() {
         fade: true
     });
 
+    // Lightbox
+    console.log(lightbox);
+    lightbox.option({
+        albumLabel: 'Slika %1 od %2'
+    });
+
     //Slicknav startup
     $('#menu').slicknav({'label' : 'MENI'});
 

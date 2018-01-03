@@ -11,6 +11,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "1.9.1",
+    "lightbox2": "^2.10.0",
     "slick-carousel": "^1.8.1",
     "slicknav": "^1.0.8"
   },
