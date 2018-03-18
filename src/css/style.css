@@ -184,6 +184,12 @@ body {
     text-align: left;
 }
 
+@media screen and (max-width: 460px) {
+    .slick-slide h2 {
+        font-size: 50px;
+    }
+}
+
 .slick-dots {
     position: relative !important;
     margin-top: 50px !important;
@@ -525,12 +531,13 @@ body {
 }
 
 .pic1Ab {
+    width: 200px;
     padding-bottom: 15px;
     float: right;
     padding: 34px;
     padding-top: 51px;
     padding-right: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 
 .about1 {
@@ -789,14 +796,11 @@ body {
 .news ul {
     margin-top: 14px;
     padding-left: 0;
-    text-align: center;
+    text-align: left;
 
 }
 
 .news ul li {
-    padding-right: 20px;
-    display: inline-block;
-    list-style: none;
 }
 
 .news ul li a {
@@ -814,7 +818,6 @@ body {
     color: #a9a9a9;
     font-size: 13px;
     text-decoration: none;
-    list-style: none;
 }
 
 .news ul li a i {

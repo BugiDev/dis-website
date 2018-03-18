@@ -107,15 +107,15 @@ $(document).ready(function() {
 
             var curval = parseInt($counter.text());
             var curval1 = parseInt($counter1.text().replace(' ', ''));
-            var curval2 = parseInt($counter2.text());
-            if (curval <= 707) {
+            var curval2 = parseInt($counter2.text().replace(' ', ''));
+            if (curval <= 28) {
                 $counter.text(curval + 1);
             }
-            if (curval1 <= 12280) {
-                $counter1.text(sdf_FTS((curval1 + 20), 0, ' '));
+            if (curval1 <= 144500) {
+                $counter1.text(sdf_FTS((curval1 + 500), 0, ' '));
             }
-            if (curval2 <= 245) {
-                $counter2.text(curval2 + 1);
+            if (curval2 <= 12800) {
+                $counter2.text(sdf_FTS((curval2 + 200), 0, ' '));
             }
         }, 2);
 

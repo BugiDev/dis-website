@@ -55,8 +55,8 @@ module.exports = function(grunt) {
         express: {
             dev: {
                 options: {
-                    port: 3000,
-                    hostname: '0.0.0.0',
+                    port: 3002,
+                    hostname: 'localhost',
                     bases: ['./src'],
                     livereload: true
                 }
@@ -64,7 +64,7 @@ module.exports = function(grunt) {
         },
         open: {
             dev: {
-                path: 'http://127.0.0.1:3000',
+                path: 'http://127.0.0.1:3002',
                 app: 'Google Chrome'
             }
         },
@@ -100,5 +100,5 @@ module.exports = function(grunt) {
         'clean:build', 'copy:build', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'usemin', 'htmlmin:build', 'imagemin:build'
     ]);
 
-    grunt.registerTask('dev', ['express:dev', 'open:dev']);
+    grunt.registerTask('dev', ['express:dev', 'open:dev', 'express-keepalive']);
 };
